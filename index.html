@@ -126,7 +126,7 @@ figcaption.mono{color:var(--mute);margin-top:10px;font-size:.72rem}
 .ed-next{aspect-ratio:3/4.2;border:2px dashed var(--teal);display:flex;flex-direction:column;justify-content:space-between;padding:14px;color:var(--teal)}
 .ed-next b{font-family:var(--display);font-weight:700;font-size:clamp(1.6rem,3.4vw,2.8rem);line-height:.9;letter-spacing:-.03em;text-transform:uppercase}
 .ed.next .ed-head span:first-child{color:var(--teal)}
-@media (max-width:860px){.ed-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ed.next{grid-column:1/-1}.ed-next{aspect-ratio:auto;min-height:180px}}
+@media (max-width:860px){.ed-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* programma 2026 */
 .prog-posters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:start}
@@ -400,6 +400,7 @@ a,button,[tabindex],.beach-link,.poster-link,video{cursor:url("img/cursor.png") 
 .area figure{margin:0 0 16px!important;border-bottom:1px solid var(--paper)}
 .area>:not(figure){margin-left:clamp(12px,1.6vw,20px);margin-right:clamp(12px,1.6vw,20px)}
 .area-n{display:block}
+.ed-next b{font-size:clamp(2.2rem,4.6vw,3.6rem)}
 /* sponsors */
 .sponsors{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(24px,5vw,64px)}
 .sponsors li{font-family:var(--display);font-weight:700;font-size:clamp(1.6rem,4vw,3.2rem);line-height:1;letter-spacing:-.03em;padding:18px 0;border-bottom:1px solid var(--line);min-width:0;overflow-wrap:anywhere}
@@ -603,10 +604,7 @@ section[id],#top{scroll-margin-top:100px}
       <figure class="ed" data-people="100+ persone"><div class="ed-head"><span>Vol. 2</span><span>2024</span></div><img src="img/vol2.jpg" alt="Locandina Over Cooked Classic Vol. 2, sabato 4 maggio 2024" loading="lazy"></figure>
       <figure class="ed" data-people="300+ persone"><div class="ed-head"><span>Vol. 3</span><span>2025</span></div><img src="img/vol3.jpg" alt="Locandina Over Cooked Classic Vol. 3, 2025" loading="lazy"></figure>
       <figure class="ed" data-people="500+ persone"><div class="ed-head"><span>Vol. 4</span><span>2026</span></div><img src="img/vol4-hq.jpg" alt="Locandina Over Cooked Classic Vol. 4, 1 e 2 maggio 2026" loading="lazy"></figure>
-    </div>
-    <div class="vol5">
-      <div class="vol5-l"><span class="mono">Vol. 5 · Prossima edizione</span><b>May '27</b></div>
-      <div class="vol5-r"><p>Coming soon</p></div>
+      <div class="ed next"><div class="ed-head mono"><span>Vol. 5</span><span>2027</span></div><div class="ed-next"><span class="mono">Prossima edizione</span><b>May<br>'27</b><span class="mono">Coming soon</span></div></div>
     </div>
     <span class="ed-pop" aria-hidden="true"></span>
   </div>
@@ -713,7 +711,7 @@ section[id],#top{scroll-margin-top:100px}
         <dl class="facts">
           <div><dt class="mono">Dove</dt><dd>Beachcletta, Molo del Surf · Varazze (SV)</dd></div>
           <div><dt class="mono">Quando</dt><dd>Maggio 2027, venerdì e sabato</dd></div>
-          <div><dt class="mono">Format</dt><dd>Mini ramp skate contest, Food &amp; Beverage e DJ set sulla spiaggia</dd></div>
+          <div><dt class="mono">Format</dt><dd>Miniramp skate contest, DJ Set + Live Performance sulla Spiaggia, Art Show, Workshops, Food &amp; Beverage</dd></div>
         </dl>
         <figure class="liguria">
           <svg viewBox="-20 -30 640 383" role="img" aria-label="Mappa della Liguria con Varazze evidenziata in rosso">
@@ -745,7 +743,7 @@ section[id],#top{scroll-margin-top:100px}
       <li class="area"><figure><img src="img/area-skate.webp" alt="Sei foto fisheye in bianco e nero di skater sulla mini ramp" loading="lazy"></figure><span class="area-n mono">01</span><h3>Skateboarding</h3><p>Mini ramp contest & open sessions</p></li>
       <li class="area"><figure><img src="img/s5.webp" alt="Festa notturna con DJ sotto un ombrellone blu" loading="lazy"></figure><span class="area-n mono">02</span><h3>Music</h3><p>DJ sets & live performances</p></li>
       <li class="area"><figure><img src="img/area-art.webp" alt="Locandina della mostra fotografica Inside Mattoni DiY di Lorenzo Scarpellini" loading="lazy"></figure><span class="area-n mono">03</span><h3>Art & Culture</h3><p>Exhibitions, photography & screenings</p></li>
-      <li class="area"><figure><img src="img/area-community.webp" alt="Un abbraccio davanti allo striscione giallo di Over Cooked Classic" loading="lazy"></figure><span class="area-n mono">04</span><h3>Community</h3><p>Pop-ups, brands &amp; shared experiences</p></li>
+      <li class="area"><figure><img src="img/area-community.webp" alt="Un abbraccio davanti allo striscione giallo di Over Cooked Classic" loading="lazy"></figure><span class="area-n mono">04</span><h3>Community</h3><p>Every year in the same spot, old friends and new friends meet</p></li>
     </ol>
   </div>
 </section>
